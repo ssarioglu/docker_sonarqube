@@ -14,4 +14,4 @@ RUN sed -i 's/^#RUN_AS_USER=$/RUN_AS_USER=sonar/' /opt/sonarqube/bin/linux-x86-6
 
 EXPOSE 9000
 ENTRYPOINT ["/opt/sonarqube/bin/linux-x86-64/sonar.sh"]
-CMD ["start"]
+CMD ["console"]
